@@ -1,0 +1,83 @@
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #ff0000;
+}
+.menubar {
+    width: 250px;
+    height: 100vh; 
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; 
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .button:active {
+    background-color: #3e8e41;
+  }.sidebar {
+    width: 250px; /* Adjust the width as needed */
+    height: 100vh; /* Set the height to cover the full viewport */
+    background-color: #f1f1f1; /* Set the background color */
+    position: fixed; /* Fix the position of the sidebar */
+    left: 0; /* Position the sidebar on the left side */
+    top: 0; /* Position the sidebar at the top */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    padding-top: 20px; /* Add some padding at the top */
+  }
+  
+  /* Style the button */
+  .sidebar-button {
+    background-color: #4CAF50; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Display the button as a block element */
+    font-size: 16px; /* Set the font size */
+    margin-bottom: 10px; /* Add some margin at the bottom */
+  }
+  
+  /* Style the button on hover */
+  .sidebar-button:hover {
+    background-color: #45a049; /* Change the background color on hover */
+  }
